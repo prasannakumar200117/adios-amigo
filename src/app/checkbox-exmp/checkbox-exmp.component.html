@@ -1,0 +1,16 @@
+<h1>Select your favorite snacks from the list</h1>
+
+
+<div *ngFor="let snack of snacks">
+    <input type="checkbox" name="" id="" [(ngModel)]="snack.selected"> {{snack.name}}
+</div>
+
+<button (click)="updateSelectedSnacks()">show selected snacks</button>
+
+
+<div *ngIf=" showFavoriteMsg && selectedSnacks.length > 0">Your favorites</div>
+<div *ngIf="showFavoriteMsg && selectedSnacks.length === 0" class="favorites">No favorites selected </div>
+
+<ul>
+    <li *ngFor="let snack of selectedSnacks">{{snack}}</li>
+</ul>
