@@ -1,7 +1,44 @@
 <p>hello-world works!</p>
 
 
-<input type="text" (input)="handleInput($event); value1=$any($event.target).value" name="" id="">
+<!-- <input type="text" (input)="handleInput($event); value1=$any($event.target).value" name="" id="">
 
 <h1>{{value}}</h1>
-<h1>{{value1}}</h1>
+<h1>{{value1}}</h1> -->
+
+
+
+<!-- <h1>{{title}}</h1>
+
+<ul>
+    <li *ngFor="let movie of movies">
+        {{movie.title}} - {{movie.director}} - {{movie.year}} - {{movie.genre}}
+    </li>
+</ul> -->
+
+<div>
+    <div>{{title}}</div>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Director</th>
+                    <th>year</th>
+                    <th>Genre</th>
+                    <th>S.no</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr [ngClass]="{ 'bg-success': f, 'bg-danger': o,'bg-warning': l, }" *ngFor="let movie of movies; let i = index; let o=odd; let e=even; let f=first; let l=last">
+                    <td>{{i + 1}}</td>
+                    <td>{{movie.title}}</td>
+                    <td>{{movie.director}}</td>
+                    <td>{{movie.year}}</td>
+                    <td>{{movie.genre}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
