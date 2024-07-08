@@ -1,0 +1,40 @@
+nav ul li.active {
+    font-weight: bold;
+    color: blue;
+    
+  }
+
+  nav ul li {
+    list-style: none;
+
+  }
+
+  nav ul  {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+
+  }
+
+  button.enabled {
+    background-color: green;
+    color: white;
+  }
+  
+  button.disabled {
+    background-color: gray;
+    color: darkgray;
+  }
+
+  .progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background-color: #76c7c0;
+    width: 0;
+  }

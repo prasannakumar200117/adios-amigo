@@ -78,6 +78,24 @@ title = "List of movies ";
 
   // team = true;
 
+showsnacks = false;
+
+snacks = [{name:"thaen mittai",selected:false},{name:"thattai",selected:false},{name:"thaen kuzhal",selected:false},{name:"burfi",selected:false},{name:"banana cake",selected:false},{name:"kulfi",selected:false},]
+
+
+selectedItems :string[] = [];
+
+updatedSelectedList() {
+  this.selectedItems = this.snacks.filter(snack => snack.selected).map(snack => snack.name);
+
+  this.showsnacks = true;
+
+
+}
+
+
+
+
 
 }
 

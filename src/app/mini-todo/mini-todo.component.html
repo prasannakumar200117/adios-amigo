@@ -1,0 +1,23 @@
+<p>mini-todo works!</p>
+
+<input type="text" [(ngModel)]="hut">
+
+<button (click)="addtask()">Add task</button>
+
+
+<div *ngIf="stores.length ===0; else elseBlock">No tasks</div>
+
+
+<ng-template  #elseBlock >
+    <ul >
+        <li *ngFor="let store of stores">{{store}}</li>
+    </ul>
+</ng-template>
+
+
+
+
+
+
+
+

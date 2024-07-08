@@ -1,0 +1,26 @@
+<!-- <p>json-table-display works!</p> -->
+
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>username</th>
+                <th>email</th>
+                <th>address</th>
+                <th>phoneNumber</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let User of Users">
+                <td>{{User.id}}</td>
+                <td>{{User.username}}</td>
+                <td>{{User.email}}</td>
+                <td>{{User.address}}</td>
+                <td>{{User.phoneNumber}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>

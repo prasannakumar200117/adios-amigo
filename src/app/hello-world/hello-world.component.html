@@ -99,4 +99,18 @@
 <p *ngIf="!team">Un-Checked</p> -->
 
 
+  <h1>Select snacks from the list</h1>
+
+  <div *ngFor="let snack of snacks">
+    <input type="checkbox" [(ngModel)]="snack.selected" > {{snack.name}}
+  </div>
+
+  <button (click)="updatedSelectedList()">click me</button>
+
+  <div *ngIf="selectedItems.length >0">Your favorites are :</div>
+  <div *ngIf="showsnacks && selectedItems.length === 0">No favorites selected</div>
   
+  
+  <ul>
+    <li *ngFor="let snack of selectedItems">{{snack}}</li>
+  </ul>

@@ -6,7 +6,12 @@ import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { FormsModule } from '@angular/forms';
 import { HighlightDirective } from './highlight.directive';
-import { CheckboxExmpComponent } from './checkbox-exmp/checkbox-exmp.component'; // Import FormsModule
+import { CheckboxExmpComponent } from './checkbox-exmp/checkbox-exmp.component';
+import { AttributeDirectiveComponent } from './attribute-directive/attribute-directive.component';
+import { MyCustompipePipe } from './my-custompipe.pipe';
+import { MiniTodoComponent } from './mini-todo/mini-todo.component';
+import { MiniSearchComponent } from './mini-search/mini-search.component';
+import { JsonTableDisplayComponent } from './json-table-display/json-table-display.component'; // Import FormsModule
 
 
 @NgModule({
@@ -14,7 +19,12 @@ import { CheckboxExmpComponent } from './checkbox-exmp/checkbox-exmp.component';
     AppComponent,
     HelloWorldComponent,
     HighlightDirective,
-    CheckboxExmpComponent
+    CheckboxExmpComponent,
+    AttributeDirectiveComponent,
+    MyCustompipePipe,
+    MiniTodoComponent,
+    MiniSearchComponent,
+    JsonTableDisplayComponent
   ],
   imports: [
     BrowserModule,

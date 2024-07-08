@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "username": "johndoe",
+      "email": "johndoe@example.com",
+      "address": "123 Main St",
+      "phoneNumber": "+1234567890",
+      "city": "New York"
+    },
+    {
+      "id": 2,
+      "username": "janedoe",
+      "email": "janedoe@example.com",
+      "address": "456 Elm St",
+      "phoneNumber": "+1987654321",
+      "city": "Los Angeles"
+    },
+    {
+      "id": 3,
+      "username": "alice_smith",
+      "email": "alice.smith@example.com",
+      "address": "789 Oak St",
+      "phoneNumber": "+1122334455",
+      "city": "Chicago"
+    },
+    {
+      "id": 4,
+      "username": "bob_jones",
+      "email": "bob.jones@example.com",
+      "address": "321 Pine St",
+      "phoneNumber": "+1555666777",
+      "city": "Seattle"
+    },
+    {
+      "id": 5,
+      "username": "emily_wang",
+      "email": "emily.wang@example.com",
+      "address": "567 Maple Ave",
+      "phoneNumber": "+1444333222",
+      "city": "San Francisco"
+    },
+    {
+      "id": 6,
+      "username": "alex_brown",
+      "email": "alex.brown@example.com",
+      "address": "987 Cedar Rd",
+      "phoneNumber": "+1888999000",
+      "city": "Boston"
+    },
+    {
+      "id": 7,
+      "username": "sarah_miller",
+      "email": "sarah.miller@example.com",
+      "address": "654 Birch Ln",
+      "phoneNumber": "+1666777888",
+      "city": "Denver"
+    },
+    {
+      "id": 8,
+      "username": "michael_smith",
+      "email": "michael.smith@example.com",
+      "address": "234 Oakwood Dr",
+      "phoneNumber": "+1999888777",
+      "city": "Austin"
+    },
+    {
+      "id": 9,
+      "username": "grace_li",
+      "email": "grace.li@example.com",
+      "address": "876 Willow Ct",
+      "phoneNumber": "+1333444555",
+      "city": "Miami"
+    },
+    {
+      "id": 10,
+      "username": "ryan_wilson",
+      "email": "ryan.wilson@example.com",
+      "address": "543 Spruce Blvd",
+      "phoneNumber": "+1777666555",
+      "city": "Atlanta"
+    }
+  ]
+  
